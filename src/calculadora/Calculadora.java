@@ -82,6 +82,7 @@ public class Calculadora {
         System.out.println("Resta [2]");
         System.out.println("Multiplicación [3]");
         System.out.println("División [4]");
+        System.out.println("");
         int opcion = option.nextInt();
         
         switch (opcion){
