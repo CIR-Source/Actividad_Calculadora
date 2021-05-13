@@ -6,9 +6,10 @@
 package calculadora;
 
 /**
- *
- * @author PC
- */
+* El programa division permite al usuario 
+* introducir dos numeros a dividir y al final 
+* devuelve el resultado de la division
+*/
 public class Division {
     private double resultado;
 

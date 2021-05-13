@@ -6,9 +6,10 @@
 package calculadora;
 
 /**
- *
- * @author PC
- */
+* El programa multiplicacion le permite al usuario
+* introducir dos numero a multiplicar y al final
+* devuelve el resultado de dicha multiplicacion
+*/
 public class Multiplicacion {
     private double resultado;
 

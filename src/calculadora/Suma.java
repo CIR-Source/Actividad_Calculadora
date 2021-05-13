@@ -6,9 +6,10 @@
 package calculadora;
 
 /**
- *
- * @author PC
- */
+* El programa suma le permite al usuario
+* introducir dos numeros a sumar y al final
+* devuelve el resultado de dicha suma
+*/
 public class Suma {
     private double resultado;
 

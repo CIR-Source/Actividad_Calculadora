@@ -6,9 +6,10 @@
 package calculadora;
 
 /**
- *
- * @author PC
- */
+* El programa resta le permite al usuario
+* introducir dos numeros para restar y al final
+* devuelve el resultado de dicha resta
+*/
 public class Resta {
     private double resultado;
 
