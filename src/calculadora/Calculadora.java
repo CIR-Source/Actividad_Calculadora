@@ -8,11 +8,16 @@ package calculadora;
 import java.util.Scanner;
 
 /**
- *
- * @author PC
+ * Programa que permite realizar cuatro
+ * operaciones basicas de una calculadora
+ * @author William J. Chi Rico
  */
 public class Calculadora {
     
+    /**
+     * Proceso que activa la clase suma y pide
+     * al usuario introducir dos cifras a sumar
+     */
     public static void suma(){
         Scanner pNum = new Scanner(System.in);
         Suma calc = new Suma();
@@ -27,6 +32,10 @@ public class Calculadora {
         System.out.println("El resultado de la suma es: " + calc.suma(sN));
         }
     
+    /**
+     * Proceso que activa la clase resta y pide
+     * al usuario introducir dos cifras a restar
+     */
     public static void resta(){
         Scanner pNum = new Scanner(System.in);
         Resta calc = new Resta();
@@ -41,6 +50,10 @@ public class Calculadora {
         System.out.println("El resultado de la resta es: " + calc.resta(sN));
         }
     
+    /**
+     * Proceso que activa la clase multiplicacion y pide
+     * al usuario introducir dos cifras a multiplicar
+     */
     public static void multiplicacion(){
         Scanner pNum = new Scanner(System.in);
         Multiplicacion calc = new Multiplicacion();
@@ -55,6 +68,10 @@ public class Calculadora {
         System.out.println("El resultado de la multiplicación es: " + calc.multiplicacion(sN));
         }
     
+    /**
+     * Proceso que activa la clase division y pide
+     * al usuario introducir dos cifras a multiplicar
+     */
     public static void division(){
         Scanner pNum = new Scanner(System.in);
         Division calc = new Division();
@@ -73,6 +90,12 @@ public class Calculadora {
         }
         }
     
+    /**
+     * Proceso que le pide al usuario escoger
+     * una de las cuatro distintas operaciones que
+     * la calculadora puede realizar y activa los
+     * procesos de dichas operaciones
+     */
     public static void opcion(){
         Scanner option = new Scanner (System.in);
         
@@ -94,6 +117,10 @@ public class Calculadora {
         }
         }
     
+    /**
+     *
+     * @param args Cuerpo principal del programa
+     */
     public static void main(String[] args) {
         // TODO code application logic here
         opcion();

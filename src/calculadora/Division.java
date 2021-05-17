@@ -13,22 +13,41 @@ package calculadora;
 public class Division {
     private double resultado;
 
+    /**
+     *
+     */
     public Division() {
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public Division(double resultado) {
         this.resultado = resultado;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getResultado() {
         return resultado;
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public void setResultado(double resultado) {
         this.resultado = resultado;
     }
 
-    
+    /**
+     *
+     * @param valor
+     * @return
+     */
     public double multiplicacion(double valor){
         this.resultado = resultado / valor;
         return resultado;

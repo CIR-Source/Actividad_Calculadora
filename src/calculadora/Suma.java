@@ -13,21 +13,41 @@ package calculadora;
 public class Suma {
     private double resultado;
 
+    /**
+     *
+     */
     public Suma() {
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public Suma(double resultado) {
         this.resultado = resultado;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getResultado() {
         return resultado;
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public void setResultado(double resultado) {
         this.resultado = resultado;
     }
 
+    /**
+     *
+     * @param valor
+     * @return
+     */
     public double suma(double valor){
         this.resultado = resultado + valor;
         return resultado;

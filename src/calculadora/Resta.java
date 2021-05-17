@@ -13,21 +13,41 @@ package calculadora;
 public class Resta {
     private double resultado;
 
+    /**
+     *
+     */
     public Resta() {
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public Resta(double resultado) {
         this.resultado = resultado;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getResultado() {
         return resultado;
     }
 
+    /**
+     *
+     * @param resultado
+     */
     public void setResultado(double resultado) {
         this.resultado = resultado;
     }
 
+    /**
+     *
+     * @param valor
+     * @return
+     */
     public double resta(double valor){
         this.resultado = resultado - valor;
         return resultado;
